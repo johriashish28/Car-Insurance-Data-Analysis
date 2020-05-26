@@ -6,7 +6,7 @@ Data Overview ::
 Dataset Variables ::
 
 Kilometres - Kilometres travelled per year 
-1: < 1000 \n 
+1: < 1000 
 2: 1000-15000 
 3: 15000-20000 
 4: 20000-25000 
@@ -22,9 +22,17 @@ Zone - Geographical zones
 7: Gotland
 
 Bonus - No claims bonus; equal to the number of years, plus one, since the last claim
+
+
 Make - 1-8 represents eight different common car models. All other models are combined in class 9. 
+
+
 Insured - Number of insured in policy-years. 
+
+
 Claims - Number of claims.    
+
+
 Payment - Total value of payments in Swedish Krona.
 
 
