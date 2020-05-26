@@ -6,20 +6,33 @@ Data Overview ::
 Dataset Variables ::
 
 Kilometres - Kilometres travelled per year 
+
 1: < 1000 
+
 2: 1000-15000 
+
 3: 15000-20000 
+
 4: 20000-25000 
+
 5: > 25000 
  
 Zone - Geographical zones 
-1: Stockholm, Göteborg, and Malmö with surroundings 
+
+1: Stockholm, Göteborg, and Malmö with surroundings
+
 2: Other large cities with surroundings 
+
 3: Smaller cities with surroundings in southern Sweden 
+
 4: Rural areas in southern Sweden 
+
 5: Smaller cities with surroundings in northern Sweden 
+
 6: Rural areas in northern Sweden 
+
 7: Gotland
+
 
 Bonus - No claims bonus; equal to the number of years, plus one, since the last claim
 
