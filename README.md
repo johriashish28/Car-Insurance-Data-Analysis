@@ -77,7 +77,7 @@ Code ::
 
 cor(DS$Claims,DS$Payment)
 
-plot(DS$Insured,DS$Payment)
+plot(DS$Claims,DS$Payment)
  
  
 
