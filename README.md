@@ -16,6 +16,7 @@ Kilometres - Kilometres travelled per year
 4: 20000-25000 
 
 5: > 25000 
+
  
 Zone - Geographical zones 
 
@@ -34,6 +35,7 @@ Zone - Geographical zones
 7: Gotland
 
 
+
 Bonus - No claims bonus; equal to the number of years, plus one, since the last claim
 
 
@@ -50,16 +52,24 @@ Payment - Total value of payments in Swedish Krona.
 
 
 
+
+
 Objective-1 :: The committee is interested to know each field of the data collected through descriptive analysis to gain basic insights 
                into the data set and to prepare for further analysis.
 
+
 Code & Output::
+
 setwd("C:/Insurance_Data_Analysis")
+
 DS <- read.csv("SwedishMotorInsurance.csv")
+
 View(DS)
 
 
-Kilometres         Zone          Bonus            Make          Insured         
+
+
+Kilometres        Zone          Bonus            Make          Insured         
  Min.   :1.000   Min.   :1.00   Min.   :1.000   Min.   :1.000   Min.   :     0.01  
  1st Qu.:2.000   1st Qu.:2.00   1st Qu.:2.000   1st Qu.:3.000   1st Qu.:    21.61  
  Median :3.000   Median :4.00   Median :4.000   Median :5.000   Median :    81.53  
@@ -73,6 +83,8 @@ Kilometres         Zone          Bonus            Make          Insured
  Mean   :  51.87   Mean   :  257008  
  3rd Qu.:  21.00   3rd Qu.:  111954  
  Max.   :3338.00   Max.   :18245026  
+
+
 
 
 
